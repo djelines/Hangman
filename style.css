@@ -1,0 +1,113 @@
+/* Style global */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f0f8ff, #e0eafc); /* Dégradé de fond */
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+h1 {
+    color: #264653;
+    margin-top: 10px;
+    font-size: 2.2em;
+}
+
+h2 {
+    color: #2a9d8f;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+/* Image du bonhomme de pendu */
+img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px; /* Ajustez la taille selon vos besoins */
+    height: auto;
+}
+
+/* Mot caché */
+#mot-cache {
+    font-size: 2em;
+    letter-spacing: 0.2em;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #03045e;
+    border-radius: 10px;
+    background-color: #ecf0f1;
+    display: inline-block;
+    min-width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre pour effet de profondeur */
+}
+
+/* Boutons de lettres */
+#boutons-lettres {
+    display: flex;
+    flex-wrap: wrap; /* Permet aux boutons de passer à la ligne suivante */
+    justify-content: center; /* Centre les boutons horizontalement */
+    gap: 10px; /* Espace entre les boutons */
+    margin: 20px;
+}
+/* Style pour les boutons */
+button {
+    background-color: #00b4d8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    box-shadow: 0 4px 8px #04507a;
+    transition: background-color 0.3s, transform 0.2s;
+    min-width: 40px; /* Largeur minimale des boutons pour garantir une taille cohérente */
+}
+
+button:hover {
+    background-color: #90e0ef;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+/* Validation */
+#valider {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #57cc99;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+#valider:hover {
+    background-color: #80ed99;
+}
+
+/* ListeLettre */
+#ListeLettre {
+    font-size: 1.2em;
+    color: #2d6a4f;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Canvas du pendu */
+#penduCanvas {
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color: #fff; /* Fond blanc pour le canvas */
+}
