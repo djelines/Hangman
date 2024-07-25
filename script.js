@@ -150,7 +150,7 @@ function dessinerPendu(Erreur) {
         ctx.stroke();
     }
     if (Erreur === 10){ // Perdu 
-        afficherMessage("Vous avez perdu ! Recharger la page pour continuer ")
+        afficherMessage("Vous avez perdu ! Le mot était " + Mot_Cache +" ! Recharger la page pour continuer ")
         jeuFini = true;
         desactiverBoutons();
     }
