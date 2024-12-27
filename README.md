@@ -1,4 +1,4 @@
-# 🌐 Pendu_Web / Hangman_Web
+# 🌐 Hangman
 
 ## FR - Description
 Le **jeu du pendu** est un jeu classique où vous devez deviner un mot caché avant que le dessin du pendu ne soit complet. Chaque erreur ajoute une partie au dessin.  
